@@ -1,4 +1,5 @@
-$('a').on('click', function(event) {
-   event.preventDefault();
-   $('#my-div').toggle('fast');
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").toggle();
+    });
 });

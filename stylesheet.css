@@ -184,9 +184,9 @@ h2:hover {
 	cursor: pointer;
 }
 
-.fa-arrow-right {
-	transform: rotate(90deg); 
-}
+/*.fa-arrow-right {
+	transform: rotate(90deg);
+}*/
 
 .newsitem {
 	font-family: verdana, sans-serif;

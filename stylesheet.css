@@ -1,0 +1,363 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*************************************/
+/*
+ * reset over.
+ */
+
+/*
+ * my stuff starts here!
+ */
+/***********************************/
+
+
+header {
+  /*background: deeppink;*/
+
+}
+
+article {
+  /*background: yellow;*/
+  height: 1000px;
+  width: 100%;
+}
+
+/*.logo {
+  background: white;
+}*/
+
+/******************************************
+******************* START OF NAV BAR ******
+/******************************************/
+* {
+  /*background-color: rgba(0,0,0,0.1);*/
+  /*border: 1px solid red !important;*/
+}
+
+img {
+  max-width: 100%;
+}
+
+.header-logo {
+  /*float: left;*/
+  /*margin: 0px auto;*/
+  text-align: center;
+	border: 1px solid red;
+}
+
+.navbar {
+	text-align: center;
+}
+
+.homenav {
+  display: inline;
+  list-style-type: none;
+	margin-top: 50px;
+	margin-right: 20px;
+	border: 1px solid red;
+}
+
+.homenav li {
+display: inline-block;
+text-align: center;
+margin: 0px 15px 10px 15px;
+font-family: verdana, sans-serif;
+color: #707070;
+font-size: 30px;
+text-transform: uppercase;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #707070;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #707070;
+}
+
+li a:hover {
+  transform: scale(1.2);
+}
+
+.divider {
+  height: 3px;
+  width: 100%;
+  background: black;
+  clear: both;
+}
+
+/****************************************
+******************* END OF NAV BAR ******
+/****************************************
+
+********** HOMEPAGE **************************************/
+
+.introbox {
+  background: #505050;
+  height: 750px;
+  width: 400px;
+  box-shadow: 10px 10px 5px #888888;
+  margin: 15px auto;
+}
+.promophoto {
+  /*float: left;*/
+  text-align: center;
+  padding-top: 10px;
+}
+.brenden {
+  border-radius: 70%;
+}
+.intropar {
+  padding: 20px 10px 8px 10px;
+  color: #B8B8B8;
+  font-size: 17px;
+  /*float: right;*/
+  text-align: center;
+	font-family: verdana, sans-serif;
+}
+
+.news {
+margin-top: 40px;
+margin-right: 200px;
+background: #505050;
+height: 500px;
+width: 300px;
+box-shadow: 10px 10px 5px #888888;
+margin: 15px auto;
+}
+
+/********** END HOMEPAGE ***********************************/
+
+/********** MUSIC ******************************************/
+
+.music-page {
+  font-family: verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 35px;
+  padding: 15px;
+  color: #484848;
+  margin: 10px auto 10px auto ;
+	/*box-shadow: 1px 1px 5px #888888*/
+}
+
+.new-music {
+	/*margin: auto auto 30px 15px;*/
+	text-align: center;
+
+}
+
+.release {
+	border-radius: 5%;
+	margin: 5px;
+	opacity: 1;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+	}
+
+.release:hover {
+	opacity: 0.5;
+}
+
+.soundcloud {
+	margin-left: 15px;
+	text-align: center;
+}
+
+.listen {
+	margin-left: 15px;
+	text-align: center;
+}
+
+/**********  END MUSIC ******************************************/
+
+/**********  CONTACT** ******************************************/
+
+.message-form {
+	height: 450px;
+	background: #505050;
+	box-shadow: 10px 10px 5px #888888;
+	/*text-align: center;*/
+
+}
+
+.contact {
+	/*text-align: center;*/
+}
+
+.form {
+	/*margin: 20px;*/
+	/*padding: 15px;*/
+	font-family: verdana, sans-serif;
+	color: #B8B8B8;
+	font-size: 17px;
+	margin: 20px auto auto 15px
+}
+
+textarea {
+	margin-left: 10px;
+	padding: 10px;
+	margin: 10px auto 10px 20px;
+}
+
+input {
+	padding: 10px;
+	display: block;
+	margin: 10px auto 10px 20px;
+}
+
+select {
+	margin: 10px auto 10px 20px;
+}
+
+
+.contact-page {
+	font-family: verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  padding: 15px;
+  color: #484848;
+  margin: 10px auto 10px auto ;
+}
+
+
+/**********  END CONTACT ******************************************/
+body {
+  padding-bottom: 100px;
+}
+
+footer {
+  background: url("images/black-background.jpg");
+	position: fixed;
+	bottom: 0;
+  /*max-width: 960px;*/
+  margin: 0px;
+	/*margin-top: 0px;*/
+  height: 75px;
+  width: 100%;
+}
+
+
+.social {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.social li {
+  list-style-type: none;
+  display: inline;
+  margin: 10px;
+  padding-top: 30px;
+}
+
+@media (min-width: 700px) {
+  .introbox {
+    width: 700px;
+    height: 550px;
+  }
+  .news {
+    width: 500px;
+    height: 300px;
+  }
+	.message-form {
+		width: 600px;
+		margin-left: 15px;
+	}
+
+	.form {
+		text-align: left;
+	}
+
+	.contact-page {
+		font-size: 35px;
+	}
+
+@media (min-width: 1200px) {
+  .header-logo {
+    float: left;
+  }
+  .homenav {
+    float: right;
+  }
+	.news {
+		height: 450px;
+		width: 300px;
+		float: right;
+		margin: 75px 65px 50px auto;
+	}
+	.introbox {
+		float: left;
+		margin: 35px auto 50px 35px;
+		height: 600px;
+	}
+
+	/*.brenden {
+		float: left;
+	}
+
+	.intropar {
+		float: right;
+	}*/
+
+	.new-music, .soundcloud {
+			margin: auto auto 30px 15px;
+			text-align: left;
+	}
+
+.message-form {
+	width: 800px;
+	margin-left: 15px;
+}
+
+.form {
+	text-align: left;
+}
+
+.contact-page {
+	font-size: 35px;
+}
